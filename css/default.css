@@ -12,3 +12,18 @@
 .Monday_lesson li:first-child:before{
   content:"";
 }
+
+#menu ui{
+  overflow:hidden;
+}
+
+#menu li{
+  float:left;
+  width:156px;
+  border-right:white 1px solid;
+  list-style-type:none;
+}
+
+#menu li:first-child{
+  border-left:white 1px solid;
+}
