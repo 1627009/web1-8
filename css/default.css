@@ -45,3 +45,9 @@ body{
   background-color:#87cefa;
   color:black;
 }
+
+#menu a.selected{
+  background-color:white;
+  color:#00008b;
+  font-weight:bold;
+}
