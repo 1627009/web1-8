@@ -63,11 +63,14 @@ body{
   list-style-type:none;
 }
 
-#nav li{
+#gnav li{
+  float:left;
+  width:215px;
+  border-right:white 1px solid;
   list-style-type:none;
 }
 
-#nav a{
+#gnav a{
   display:block;
   text-align:center;
   text-decoration:none;
