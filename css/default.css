@@ -1,1 +1,14 @@
 @charset "UTF-8";
+
+.Monday_lesson li{
+  display:inline;
+  list-style-type:none;
+}
+
+.Monday_lesson li:before{
+  content:" > ";
+}
+
+.Monday_lesson li:first-child:before{
+  content:"";
+}
